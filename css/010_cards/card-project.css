@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    margin:0 auto;
+    max-width: 1140px;
+}
+ 
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-25{
+    width: 25%;
+}
+
+
+/* card */
+ 
+.card .card-item{
+    text-align: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 40px 20px;
+}
+
+.card .card-item h2{
+    padding-top: 16px;
+}
+.card .card-item p{
+    margin-top: 16px;   
+}
+
+.card .card-item .countity{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 16px;
+    width: 30px;
+    text-align: center;    
+}
+.card .card-item .countity input{
+    width: 30px;
+}
+
+.card .card-item a{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: pink;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    color:black;
+    padding-top: 5px;   
+}
+
+.card .card-item a:hover{
+    background-color: black;
+    color: white;  
+}
+
+

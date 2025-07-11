@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 40px auto;
+    background-color: burlywood;
+}
+
+.box{
+    height: 280px;
+    width: 280px;
+    margin: 20px;
+    background-color: blue;
+}
+
+.transform .box1
+.transform .box2
+.transform .box3
+{
+    transition-duration: 0.5s;
+    margin: 40px auto;
+}
+.box1:hover{
+    transform: rotate(20deg);  
+    transition-duration: 3s; 
+}
+.box2:hover{
+    transform-origin: top left;
+    /* transform:scale(2,2);  */
+    transform:scalex(2);
+    /* transform:scaley(2); */
+    transition-duration: 2s; 
+}
+.box3:hover{
+      /* transform: skew(20deg, 20deg); */
+        transform: skewy(20deg);
+      transition-duration: 2s;
+}

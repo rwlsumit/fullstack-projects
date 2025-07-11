@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.img-1{
+    background-image:url(./img/watch1.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: ; */
+
+}
+
+.img-2{
+    background-image:url(./img/watch3.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: ; */
+    background-attachment: fixed;
+
+}
+.img-3{
+    background-image:url(./img/watch4.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: ; */
+
+}
+
+
+.box1{
+    margin: 40px auto;
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(135deg,red,gold, blue,pink ,green) ;
+}
+
+.box2{
+    margin: 40px auto;
+    height: 150px;
+    width: 150px;
+    background: radial-gradient(ellipse at top,red, blue,gold,pink ,green) ;
+             /* closest-side
+                farthest-side
+                closest-corner
+                farthest-corner */
+
+}
+
+.box3{
+    margin: 40px auto;
+    height: 150px;
+    width: 150px;
+    background: conic-gradient(red, blue,gold,pink ,green) ;
+}
+
+.box4{
+    margin: 40px auto;
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0) 58%, rgba(0, 212, 255, 1) 100%)
+,url(../img/watch1.png) ;
+    background-position: center;
+    background-size: cover;
+    /* background-image: ; */
+    
+
+}

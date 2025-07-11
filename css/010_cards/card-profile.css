@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.conteriner{
+    margin-left: auto;
+    margin-top: 150px;
+    max-width: 1140px;
+    background-color: aqua;
+    /* display: inline-block; */
+    
+    /* height: 100px; */
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+/* fixd css */
+/* ------------------------------------------------------------------------ */
+
+
+.card .card1-item{
+    width: 25%;
+    padding-top: 30px;
+    display: inline-block;
+    /* margin-top for card-item is not working */
+    overflow: hidden;
+    text-align: center;
+    border-radius: 30px;
+    background-color: black;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card .card1-item .portion1{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(108, 3, 101); */
+}
+
+.card .card1-item .portion1 .img{
+    width: 50%;
+    /* margin-left: 70px; */
+    /* padding-top: 30px; */
+     height: 210px;
+     display: inline-block;
+}
+
+.card .card1-item .name{
+    font-size: xx-large;
+    margin-top: 16px;
+    color: white;
+}
+.card .card1-item .profetion{
+    font-size: x-large;
+    margin-top: 16px;
+    padding-bottom: 20px;
+    color: greenyellow;
+}
+
+/* first card */
+/* -------------------------------------------------------------- */
+
+
+.card .card2-item{
+    width: 40%;
+    background-color: aqua;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: black;
+    color:rgb(212, 64, 121);
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.card .card2-item h2{
+    padding-top: 16px;
+    font-family: cursive;
+}
+.card .card2-item p{
+    margin-top: 16px;
+    padding-bottom: 15px;
+    font-size: larger;
+}
+
+.card .card2-item .info a{
+    color:rgb(212, 64, 121);
+}
+
+.card .card2-item .socialmedia i{  
+   font-size: 30px;
+   margin-bottom: 20px;
+   margin-left: 30px;
+   display: inline-block;
+}
+
+.card .card2-item .socialmedia .ig{
+    color:rgb(212, 64, 121);
+}
+.card .card2-item .socialmedia .wp{
+    color:rgb(2, 212, 2);
+}
+.card .card2-item .socialmedia .fb{
+    color:rgb(57, 149, 206);
+}

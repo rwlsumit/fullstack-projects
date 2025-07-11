@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    height: 450px;
+    width: 450px;
+    margin: 30px auto;
+    background-color: greenyellow;
+    position: relative;
+}
+
+.b1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.b2{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+/* creating box by before after */
+
+.d1{
+        margin: 10px auto;
+        height: 450px;
+        width: 450px;
+        background-color: greenyellow;
+        position: relative;
+}
+
+.d1::before{
+    content: "b1";
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+
+.d1::after{
+    content: "b2";
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color: white;
+}
+
+
+
+
+
+/* creating line by before after */
+
+.name{
+    text-align: center;  
+}
+
+.heading{
+    margin-bottom: 100px;
+    position: relative;
+    color: darkgoldenrod;
+    font-size: 48px;
+    display: inline-block;
+}
+
+.heading::before{
+    content: "";
+    height: 3px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    top: 31px;
+    left: -69px;
+}
+
+.heading::after{
+    content: "";
+    height: 3px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    top: 31px;
+    left: 121px;
+}

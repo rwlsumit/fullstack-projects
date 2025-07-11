@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    margin: 70px auto;
+    max-width: 1140px;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style: none;
+}
+.w-25{
+    width: 25%;
+}
+li{
+    display: inline-block;
+}
+
+/* fixd css */
+/* --------------------------------------------------------------------------- */
+
+/* card-item section  */
+.card .w-25 .card-item{
+    text-align: center;
+    /* background-color: aqua; */
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card .w-25 .card-item:hover{
+    background-color: goldenrod;
+}
+
+
+/* heading and p tags  */
+.card .d-flex .card-item h2{
+    padding-bottom: 10px;
+}
+.card .d-flex .card-item p{
+    padding-bottom: 10px;
+}
+
+/* color-selection  section  */
+.card .d-flex .card-item .item-color{
+    padding-bottom: 10px;
+    margin-right: 130px;   
+}
+.card .d-flex .card-item .item-color p{
+    color: green;
+    font-family: cursive;
+    font-size: 20px;
+}
+.card .d-flex .card-item .item-color .color-1{
+    border-radius: 80px;
+    width: 20px;
+    background-color: black;
+}
+.card .d-flex .card-item .item-color .color-2{
+    border-radius: 80px;
+    width: 20px;
+    background-color: blue;
+}
+.card .d-flex .card-item .item-color .color-3{
+    border-radius: 80px;
+    width: 20px;
+    background-color:gray;
+}
+.card .d-flex .card-item .item-color .color-4{
+    border-radius: 80px;
+    width: 20px;
+    background-color: red;
+}
+.card .d-flex .card-item .item-color .option:focus{
+    outline: 4px solid rgb(119, 198, 0); 
+}
+
+
+/* button section  */
+.card .d-flex .card-item a{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.card .d-flex .card-item a:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+
+
+
+

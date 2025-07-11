@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.p1{
+    color: red;
+    
+}
+
+.btn{
+    background-color: greenyellow;
+    color: black;
+    height: 40px;
+    width: 80px;
+    font-size: large;
+    border-radius: 5px;
+    text-align: center; 
+    
+}
+
+
+
+.button1:active{
+    background-color: red;
+    color: green;
+    
+}
+
+.button2:focus{
+    background-color: red;
+    color: green;
+    transition:  3s;
+}
+
+.button3{
+     transition: 3s;   
+}
+
+.button3:hover{
+    background-color: red;
+    height: 60px;
+    width: 100px;
+    color: green;
+    border-radius: 5px;  
+}
+
+
+
+/* second part */
+
+.second ul li:first-child{
+    color: red;
+    font-family: cursive;
+}
+
+.second ul li:last-child{
+    color: blue;
+    font-family: sans-serif;
+}
+
+.second ul li:nth-child(4){
+    color: green;
+    font-family: cursive;
+}
+
+.second ul li:nth-child(2){
+    color: purple;
+    font-family: cursive;
+}
+
+/* transition pro.. */
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: width 2s ,height 2s ,transform 2s;
+    
+
+}
+
+.box:hover{
+    width: 300px;
+    height: 300px;
+    transform:rotate(180deg);
+}
+
+
+/* .img{
+    height: 100%;
+    width: 500px;
+    width: 100%;
+} */
