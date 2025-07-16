@@ -1,0 +1,85 @@
+*{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;   
+}
+
+.conteiner{
+    max-width: 1140px;
+    margin: 60px auto;
+}
+
+image{
+    width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction: row-reverse; */
+  
+}
+.w-25{
+    width: 25%;
+}
+
+/* ---------------------------------------------fixd css ----------- */
+
+.conteiner{
+    background-color: grey;
+    text-align: center;
+}
+
+.card .w-25{
+    height: 600px;
+    margin: 40px auto;
+    padding: 20px 20px;
+}
+.card .w-1{
+    background-color: rgb(72, 0, 227);
+}
+.card .w-2{
+    background-color: aqua;
+}
+.card .w-3{
+    background-color: rgb(1, 30, 30);
+}
+.card .w-4{
+    background-color: rgb(145, 255, 0);
+}
+
+.card .w-25 .card-item1{
+    background-color: aquamarine;
+    height: 550px;
+}
+
+.card .w-25 .card-item2{
+    background-color: rgb(91, 17, 65);
+    height: 550px;
+}
+
+.card .w-25 .card-item3{
+    background-color: rgba(211, 27, 39, 0.534);
+    height: 550px;
+}
+
+.card .w-25 .card-item4{
+    background-color: rgb(228, 45, 45);
+    height: 550px;
+}
+
+/* .card .row{
+    display: flex;
+    /* flex-direction: column; */  
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse;  */
+/* } */ 
