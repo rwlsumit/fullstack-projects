@@ -4,24 +4,71 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     background-color: gray;
     display: flex;
 
     /* for width: ; */
-    justify-content: center; 
+    /* direction: row width , direction: column height , */
+
+    /* justify-content: center;  */
+    /* flex-direction: column; */
     
     /* for height: ; */
-
+    /* direction: row height , direction: column width , */
     /* height: 500px; */
-    height: 100vh;
+
+    /* height: 100vh;
     align-items: center;
+    flex-direction: row; */
+ 
+body{
+    background-color: gray;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* justify-content: center; */
+    /* justify-content: start; */
+    /* justify-content: end; */
 
 
+    /* it is for height */
+
+    /* align-items: center; */
+    /* align-items: end; */
+    /* align-items: start; */
+
+
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+
+
+
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
 }
+
+
+
 
 .box{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px; 
+        
+}
+.box1{
     background-color: red;
 }
+/* .box2{
+    background-color: pink;
+}.box3{
+    background-color: black;
+}.box4{
+    background-color: yellow;
+} */

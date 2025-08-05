@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: brown;
+    /* height: 200px; */
+}
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.box{
+    height: 100px;
+    width: 100px;
+    color: white;
+    /* flex-grow: 1; */
+}
+.box1{
+    background-color: black;
+    /* order: 3; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+}
+.box2{
+    background-color: rgb(224, 249, 0);
+    /* order: 4; */
+}
+.box3{
+    background-color: rgba(241, 0, 0, 0.74);
+    /* order: 5; */
+}
+.box4{
+    background-color: rgb(195, 1, 212);
+    /* order: 2; */
+}
+.box5{
+    background-color: rgb(2, 137, 248);
+    /* order: 1; */
+}
+.box-x{
+    flex-basis: 200px;
+
+    /* it work row and column both , if you wants this to work in column set (flex direction: column;),and wants this to work in row then giv perent a fix hight */
+    align-self:center;
+}

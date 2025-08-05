@@ -1,0 +1,47 @@
+/* header */
+header .container{
+    background-color:rgb(75, 3, 139);
+    padding: 25px 40px;
+}
+header .logo{
+    font-size: 25px;
+}
+
+header .logo .icon{
+    font-size: xx-large;
+    color:orange;
+}
+
+header .logo a{
+    color: orange;
+}
+
+header nav{
+    margin-left: auto;
+}
+
+
+header nav ul li a{
+    color: white;
+    font-size: 18px;
+}
+header nav ul li a:hover{
+    color: black;
+    border-bottom: solid 2px black;
+}
+
+header nav ul li{
+    margin-right: 25px;
+}
+
+header nav ul+a{
+    background-color: orange;
+    padding: 8px 24px;
+    color: white;
+    border-radius: 3px;
+    font-size:22px;
+}
+header nav ul+a:hover{
+    background-color: black;
+    color: white;
+}
