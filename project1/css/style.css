@@ -595,8 +595,110 @@ border-radius: 2px;
 
 footer .container{
     background-color: var(--dark-blue-900);
-    margin-top: 100px;
+    margin: 100px 100px;
+    color: var(--white-900);
 }
+footer .information{
+    border-bottom: 0.5px solid var(--black-600);
+    /* background-color: aqua; */
+    margin: 10px 20px ;
+}
+footer .container .footer-item{
+    padding: 40px 10px 40px 30px;
+    
+}
+footer .container .footer-item h3{
+    font-family: var(--font-famaly-pacifico);
+    color: var(--orange-700);
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+footer .container .footer-item h3::after{
+    content: "";
+    position: absolute;
+    background-color: var(--orange-700);
+    height: 2.5px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+footer .container .footer-item .company-info{
+    display: block;
+    /* background-color: aqua; */
+    /* height:200px ; */
+    width: 150px;
+}
+footer .container .footer-item .company-info a{
+    padding-bottom: 10px;
+    font-family: var(--font-famaly-nunito);
+    font-size: 16px;
+    font-weight: 500;
+}
+footer .container .footer-item .contact-info p{
+    padding:0px 0px 10px 0px;
+    font-family: var(--font-famaly-heebo);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer .container .footer-item .social-media i{
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 10px 5px 0px 0px ;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+footer .container .footer-item .social-media i:hover{
+    background-color: var(--white-900);
+    color: var(--orange-700);
+    transition: 0.5s;
+}
+
+footer .container .footer-item .opening-info h4{
+    font-family: var(--font-famaly-nunito);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+footer .container .footer-item .Newsletter-info .input input{
+    border: none;
+    /* height: 60px; */
+    
+}
+footer .container .footer-item .Newsletter-info .input{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 1px;
+    border: 1px solid var(--orange-600);
+    background-color: var(--white-900);
+    text-align: center;
+    
+    
+}
+
+footer .container .footer-item .Newsletter-info .input button{
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--orange-700);
+    color: var(--white-900);
+    font-size: 16px;
+}
+
+
+
+footer .footer-2 p{
+    padding: 10px 20px;
+}
+footer .end-portion .ending-links{
+    justify-content: end;
+    
+}
+
+
 
 
 
