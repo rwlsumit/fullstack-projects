@@ -7,8 +7,10 @@ body{
     --orange-700:rgb(254, 161, 22);
     --orange-600:rgb(254, 161, 22);
     --white-900:rgb(255, 255, 255);
+    --white-600:rgb(222,226,230);
     --black-900:rgb(0, 0, 0);
     --black-600:rgb(102, 101, 101);
+    --dark-blue-900:rgb(15, 23, 43);
 }
 
 :root{
@@ -61,6 +63,9 @@ ul,ol{
     color:var(--orange-700);
 }
 
+.justify-content{
+    justify-content: center;
+}
 .justify-space-between{
     justify-content: space-between;
 }

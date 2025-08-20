@@ -120,11 +120,12 @@ main .rotat-img{
     background-color: var(--orange-700);
     color: var(--white-900);
     border-radius: 2px;
-    transition: 0.5s ;
-    .logo{
-        color: var(--white-900);
-    }
+    transition: 0.5s ;    
 }
+.Services .card:hover i{
+    color: var(--white-900);
+}
+
 .Services .service-card .logo{
     padding-bottom: 15px;
     color: var(--orange-700);
@@ -279,6 +280,8 @@ border-radius: 2px;
     font-weight: 800;
 }
 
+/* ------------------------------------------------------------- */
+
 /* menu nav  */
 .menu .menu-nav{
     text-align: center;
@@ -312,15 +315,14 @@ border-radius: 2px;
     padding: 25px 0px;
 }
 
+/* ------------------------------------------------------------- */
+
 /* menu item  */
 .menu .menu-list{
     padding: 16px;
     /* background-color: aqua; */
 }
-.menu .menu-list .menu-item-img{
-    height: 100px;
-    width: 100px;
-}
+
 .menu .menu-list .menu-item-info{
     padding: 0px 20px; 
     margin-bottom: 20px;
@@ -348,16 +350,27 @@ border-radius: 2px;
     font-size: 16px;    
 }
 
+/* ----------------------------------------------------------- */
+
 /* customer-info-input */
 .info-input{
     margin-top: 60px;
     /* background-color: aqua; */
     
 }
+.info-input .video-portion{
+    background-image: url(../img/video.jpg);
+    height: 100%;
+    justify-content: center;
+}
+.info-input .video-portion i{
+    font-size: 100px;
+    color: var(--orange-700);
+}
 
 .info-input .input-portion{
-    background-color: rgb(15, 23, 43) ;
-    padding: 50px 30px;
+    background-color:var(--dark-blue-900);
+    padding: 40px;
 }
 .info-input .input-portion h4{
     font-family: var(--font-famaly-pacifico);
@@ -380,9 +393,210 @@ border-radius: 2px;
     font-size: 40px;
     font-weight: 800;
 }
-.info-input .input-portion input{
-    height: 60px;
-    /* width: 60px; */
-
+.info-input .input-portion form input ,
+.info-input .input-portion form textarea ,
+.info-input .input-portion form select{
+   width: 100%;
+   margin: 8px 10px;
+   padding: 16px;
+   font-size: 16px;
 }
+.info-input .input-portion form div{
+    padding-right: 20px;
+}
+
+.info-input .input-portion form .btn{
+    background-color: var(--orange-700);
+    color: var(--white-900);
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+/* ---------------------------------------------------- */
+
+/* staff  information */
+
+
+.staff-info .staff-headeer {
+    text-align: center;
+    padding: 100px 0px 0px 0px ;
+    /* padding-top: 60px; */
+}
+.staff-info .staff-headeer h5{
+    font-family: var(--font-famaly-pacifico);
+    color: var(--orange-700);
+    font-weight: 550;
+    font-size: 20px;
+}
+.staff-info .staff-headeer h5::before{
+    content: "";
+    position: absolute;
+    background-color: var(--orange-700);
+    height: 1.5px;
+    width: 40px;
+    margin-top: 18px;
+    margin-left: -50px;  
+}
+.staff-info .staff-headeer h5::after{
+    content: "";
+    position: absolute;
+    background-color: var(--orange-700);
+    height: 1.5px;
+    width: 40px;
+    margin-top: 18px;
+    margin-left: 10px;  
+}
+
+.staff-info .staff-headeer h2{
+    font-family: var(--font-famaly-nunito);
+    color: var(--black-900);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* ------------------------------------------------------ */
+ /* staff info card  */
+
+ .info-card{
+    margin: 40px auto;
+ }
+
+.info-card .info-item{
+    padding: 20px 20px 0px 20px;
+    border-radius: 2px;
+    box-shadow:0 0 45px rgba(0 ,0 ,0,.08)  ;
+    margin: 0px 10px;
+    text-align: center;
+    height: calc(100% - 60px);
+    overflow: hidden;  
+}
+.info-card .info-item:hover{
+    height: 100%;
+    transition:0.5s;
+    /* margin-bottom: 0%; */
+}
+.info-card .info-item .staff-img{
+    overflow: hidden;
+    border-radius: 50%;
+    /* align-content: center; */
+    /* margin:10px 20px;   */
+   
+}
+
+.info-card .info-item:hover .staff-img  img{
+     transform: scale(1.2) translateY(20px);
+     transition: 1s; 
+}
+
+.info-card .info-item h3{
+    margin-top: 20px;
+    font-family: var(--font-famaly-nunito);
+    font-weight: 800;
+    color: var(--black-900);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.info-card .info-item span{
+    font-family: var(--font-famaly-heebo);
+    color: var(--black-600);
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.info-card .info-item .social-con{
+    justify-content: center; 
+    
+}
+.info-card .info-item .social-con a{
+    background-color:var(--orange-700);
+    height: 40px;
+    width: 40px;
+    margin: 40px 10px 0px 0px;
+    color: var(--white-900);
+    border-radius: 38px 38px 0px 0px;
+    padding: 10px 0px;
+}
+
+/* ---------------------------------------------------------- */
+/* review portion  */
+
+.client-review .review-header{
+    text-align: center;
+    margin: 80px auto;
+}
+.client-review .review-header h4{
+    font-family: var(--font-famaly-pacifico);
+    color: var(--orange-700);
+    font-size: 20px;
+    font-weight: 550;
+}
+.client-review .review-header h4::before{
+    content: "";
+    position: absolute;
+    background-color: var(--orange-700);
+    height: 2.5px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left:-50px;
+}
+.client-review .review-header h4::after{
+    content: "";
+    position: absolute;
+    background-color: var(--orange-700);
+    height: 2.5px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left:10px;
+}
+
+.client-review .review-header h2{
+    font-family: var(--font-famaly-nunito);
+    color: var(--black-900);
+    font-weight: 800;
+    font-size: 40px;
+}
+
+/* card portion  */
+
+.client-review .review-card{
+    border:solid 0.5px var(--white-600);
+    margin: 0px 10px;
+}
+.client-review .review-card:hover{
+    background-color: var(--orange-700);
+    transition: 0.5s;
+    color: var(--white-900);
+}
+.client-review .review-card:hover .review-item i{
+    color: var(--white-900);
+}
+
+.client-review .review-card .review-item{
+    padding: 20px 20px;
+}
+.client-review .review-card .review-item p{
+    font-family: var(--font-famaly-heebo);
+    padding-bottom: 10px;
+}
+
+.client-review .review-card .review-item .client-info .client-img{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.client-review .review-card .review-item .client-info h3,span{
+    margin-left: 20px;
+}
+
+/* -------------------------------------------------------------- */
+/* footer  */
+
+footer .container{
+    background-color: var(--dark-blue-900);
+    margin-top: 100px;
+}
+
+
 
