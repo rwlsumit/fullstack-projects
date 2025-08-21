@@ -1,6 +1,5 @@
 /* header */
 header .container{
-    /* background-color:rgb(75, 3, 139); */
     padding:10px;
     position: absolute;
     top: 0;
@@ -100,8 +99,18 @@ main .main-contant a{
     padding:16px 50px;
     
 }
-main .rotat-img{
+main .rotat-img img{
     padding: 30px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation: rotate360 30s linear infinite;
+    /* z-index: -1; */
+
+}
+@keyframes rotate360{
+    from{transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
 }
 
 /* -------------------------------------------------------------- */
@@ -605,7 +614,6 @@ footer .information{
 }
 footer .container .footer-item{
     padding: 40px 10px 40px 30px;
-    
 }
 footer .container .footer-item h3{
     font-family: var(--font-famaly-pacifico);
@@ -636,6 +644,8 @@ footer .container .footer-item .company-info a{
     font-size: 16px;
     font-weight: 500;
 }
+
+
 footer .container .footer-item .contact-info p{
     padding:0px 0px 10px 0px;
     font-family: var(--font-famaly-heebo);
@@ -664,18 +674,16 @@ footer .container .footer-item .opening-info h4{
 }
 footer .container .footer-item .Newsletter-info .input input{
     border: none;
-    /* height: 60px; */
-    
+    /* height: 60px;     */  
 }
 footer .container .footer-item .Newsletter-info .input{
     margin-top: 20px;
     padding: 10px;
+    border: none;
     border-radius: 1px;
     border: 1px solid var(--orange-600);
     background-color: var(--white-900);
-    text-align: center;
-    
-    
+    text-align: center;   
 }
 
 footer .container .footer-item .Newsletter-info .input button{
@@ -686,16 +694,20 @@ footer .container .footer-item .Newsletter-info .input button{
     background-color: var(--orange-700);
     color: var(--white-900);
     font-size: 16px;
+    
 }
-
-
 
 footer .footer-2 p{
     padding: 10px 20px;
 }
 footer .end-portion .ending-links{
-    justify-content: end;
-    
+    margin-left: 550px;
+    margin-top: 10px;
+}
+footer .end-portion .ending-links a{
+    padding-right: 10px;
+    margin-left: 10px;
+    border-right: solid 1px var(--black-600);
 }
 
 
